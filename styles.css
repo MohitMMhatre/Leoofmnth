@@ -1,107 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
-@import url('https://fonts.googleapis.com/css?family=The+Girl+Next+Door');
-
-
-*{
-	border-sizing:border-box;
-	font-family:Raleway;
-	color:#777;
-}
-
-html,body{
-	margin:0;
-	padding:0;
-}
-
-.upper-back{	
-	background-color:rgba(0,0,0,.2);
-	background-image:url("Images/upperback.jpeg");
-	/* background-blend-mode:multiply; */
-	background-size:cover;	
-	padding-bottom:500px;
-}
-
-
-.lower-back{	
-	background-color:rgba(0,0,0,.2);
-	background-image:url("Images/lowerback.jpg");
-	/* background-blend-mode:multiply; */
-	background-size:cover;	
-	padding-bottom:56px;
-}
-
-
-.footer{	
-	background-color:rgba(0,0,0,.2);
-	background-image:url("Images/footer.jpg");
-	background-blend-mode:multiply;
-	background-size:cover;	
-	padding-bottom:80px;
-}
-
-.leo-image{
-	float:left;
-	height:500px;
-	width:500px;
-	border-radius: 50%;
-    margin-left: 100px;
-    margin-top: 250px;
-}
-
-
-.leo-logo{
-	float:left;
-	height:150px;
-	width:150px;
-    border-radius: 50%;
-    mix-blend-mode: multiply;
-    /* margin-left: 300px;
-    margin-top: 300px; */
-}
-
-
-.leo-title{
-	margin-left: 80px;
-	color: #c63636;
-	position: absolute;
-	margin-top:125px;
-	font-size:4em;
-	font-family: inherit;
-	font-weight:normal;
-	columns: #c63636;;
-}
-
-.congrats{
-	margin-left: 120px;
-	color: #c63636;
-	position: absolute;
-	margin-top:58px;
-	font-size:4em;
-	font-family: "Times New Roman";
-	font-weight:normal;
-	columns: #c63636;;
-}
-
-.leo-name{
-	margin:100px;
-	font-size:4em;
-	font-family: 'Crafty Girls', cursive;
-	font-weight:normal;
-	color: white;
-}
-
-.leo-club{
-	margin:100px;
-	font-size:3em;
-	font-family: 'Crafty Girls', cursive;
-	font-weight:normal;
-	color: white;
-}
-
-
-.item{
-	display: inline-block;
-    padding-right: .5em;
-    color: red;
-}
+<!DOCTYPE html>
+<html>
+<head>
+    	<link rel="stylesheet" href="Styles.css"/>  
+</head>
+<body>
+<div class="upper-back">
+    <img class="leo-logo" src="Images/Leoslogo.jpg">
+    <img class="lion-logo" src="Images/lionslogo.jpg">
+    <span class="congrats">Congratulations</span>
+    <span class="leo-title">Leo of the Month</span>
+    <img class="leo-image" src="Images/leoimage.jpg">
+</div>
+<div class="lower-back" style="text-align:center">
+    <span class="leo-name">Shamika Jogle</span></br>
+    <span class="leo-club">Leo Club of Agashi</span></br>
+</div>
+<!-- <div class="footer"> -->
+<!-- </div> -->
+</body>
+</html>
