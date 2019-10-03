@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url('https://fonts.googleapis.com/css?family=Crafty+Girls');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css?family=The+Girl+Next+Door');
 
 
@@ -28,7 +28,7 @@ html,body{
 	background-image:url("Images/lowerback.jpg");
 	/* background-blend-mode:multiply; */
 	background-size:cover;	
-	padding-bottom:500px;
+	padding-bottom:56px;
 }
 
 
@@ -62,11 +62,25 @@ html,body{
 
 
 .leo-title{
-	margin-top:500px;
+	margin-left: 80px;
+	color: #c63636;
+	position: absolute;
+	margin-top:125px;
 	font-size:4em;
-	font-family: 'Crafty Girls', cursive;
+	font-family: inherit;
 	font-weight:normal;
-	columns: #800081;;
+	columns: #c63636;;
+}
+
+.congrats{
+	margin-left: 120px;
+	color: #c63636;
+	position: absolute;
+	margin-top:58px;
+	font-size:4em;
+	font-family: "Times New Roman";
+	font-weight:normal;
+	columns: #c63636;;
 }
 
 .leo-name{
@@ -74,8 +88,17 @@ html,body{
 	font-size:4em;
 	font-family: 'Crafty Girls', cursive;
 	font-weight:normal;
-	color:#800080;
+	color: white;
 }
+
+.leo-club{
+	margin:100px;
+	font-size:3em;
+	font-family: 'Crafty Girls', cursive;
+	font-weight:normal;
+	color: white;
+}
+
 
 .item{
 	display: inline-block;
